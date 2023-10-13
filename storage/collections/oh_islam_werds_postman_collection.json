@@ -1,0 +1,34 @@
+{
+    "info": {
+        "_postman_id": "80a620f9-78e7-476a-80ff-e3db9aa501ef",
+        "name": "oh_islam",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "variable": [
+        {
+            "key": "local",
+            "value": "http://127.0.0.1:8000/api/v1"
+        },
+        {
+            "key": "token",
+            "value": ""
+        }
+    ],
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "item": [
+        {
+            "name": "werds",
+            "item": []
+        }
+    ]
+}

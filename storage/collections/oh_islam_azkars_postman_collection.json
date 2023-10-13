@@ -1,0 +1,34 @@
+{
+    "info": {
+        "_postman_id": "77a4aed0-75ef-4773-857a-a8d61c82da30",
+        "name": "oh_islam",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "variable": [
+        {
+            "key": "local",
+            "value": "http://127.0.0.1:8000/api/v1"
+        },
+        {
+            "key": "token",
+            "value": ""
+        }
+    ],
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "item": [
+        {
+            "name": "azkars",
+            "item": []
+        }
+    ]
+}

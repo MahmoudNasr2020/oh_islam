@@ -1,0 +1,34 @@
+{
+    "info": {
+        "_postman_id": "4aeeb06a-9446-41d2-b252-8e7609efa0d0",
+        "name": "oh_islam",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "variable": [
+        {
+            "key": "local",
+            "value": "http://127.0.0.1:8000/api/v1"
+        },
+        {
+            "key": "token",
+            "value": ""
+        }
+    ],
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "item": [
+        {
+            "name": "videos",
+            "item": []
+        }
+    ]
+}
